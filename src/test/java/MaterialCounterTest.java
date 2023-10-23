@@ -1,4 +1,4 @@
-import org.example.MaterialCounter;
+import org.Piotrowski.MaterialCounter;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

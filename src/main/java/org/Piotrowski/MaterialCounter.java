@@ -1,4 +1,4 @@
-package org.example;
+package org.Piotrowski;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -23,18 +23,18 @@ public class MaterialCounter {
             return getMaterial(spaceShipAsListRight);
         }
     }
-    
+
     private int findPositionOfFirstBiggestNumInPassedList(List<Integer> passedList){
         return passedList.indexOf(passedList.stream().max(Integer::compare).get());
     }
-    
+
     private int getMaterial(List<Integer> spaceshipAsList) {
         int currentIteration = 0;
         int referenceNum = spaceshipAsList.get(currentIteration);
 
         return calcMaterial(currentIteration, referenceNum, spaceshipAsList);
     }
-    
+
     private int calcMaterial(int currentIteration, int referenceNum, List<Integer> spaceshipAsList) {
         List<Integer> subSpaceShipAsList = spaceshipAsList.subList((++currentIteration), spaceshipAsList.size());
         int sum = 0;

@@ -1,15 +1,15 @@
-package org.example;
+package org.Piotrowski;
 
 public class Main {
 
     public static void main(String[] args) {
+
         for (String arg : args) {
             if (!arg.matches("\\d+")) {
                 System.out.println("Please enter only numbers");
                 System.exit(0);
             }
         }
-
 
         int[] intArgs = castStringArrayToIntArray(args);
         System.out.println(
