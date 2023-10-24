@@ -15,7 +15,7 @@ To run:
 thats it :) u can see result in cmd
 
 examples:
-cd C:\Users\<.USER.>\Desktop\SoFixIt\SoFixIt
+cd C:\Users\.<.USER.>\Desktop\SoFixIt\SoFixIt
 
 C:\Users\<.USER.>\Desktop\SoFixIt\SoFixIt>mvn package exec:java -Dexec.args="1 0 1 0 1"
 
